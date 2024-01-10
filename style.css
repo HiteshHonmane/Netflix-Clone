@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.blacklayer {
+    height: 98vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.64;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.backgroundimg {
+    height: 98vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 4 0px;
+
+}
+
+.logo {
+    height: 50px;
+
+}
+
+
+
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.58);
+    height: 40px;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px 8px;
+    margin: 10px;
+
+}
+
+.loginbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.signin {
+    background-color: #d11515;
+    color: white;
+    padding: 0px 15px;
+}
+
+select {
+    background-color: transparent;
+    border: 0px;
+    height: auto;
+    color: white;
+
+}
+
+.main {
+    position: relative;
+    height: 30vh;
+    width: 80vw;
+    z-index: 10;
+    margin: 100px 140px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid white; */
+    flex-direction: column;
+
+}
+
+h1 {
+    position: relative;
+    color: white;
+    font-weight: 900;
+    padding: 20px 0px;
+    font-size: 48px;
+}
+
+.head2 {
+    color: white;
+    font-size: larger;
+    padding: 20px 0px;
+    font-size: 24px;
+}
+
+.head3 {
+    color: white;
+    font-size: larger;
+    font-size: 20px;
+    padding: 20px 0px;
+    padding-bottom: 40px;
+
+}
+
+.email {
+    height: 40px;
+    width: 100%;
+    margin: 0px 50px;
+    background-color: transparent;
+    padding-left: 5px;
+    border: 1px solid gray;
+}
+
+.btnred {
+    height: 45px;
+    width: 344px;
+    background-color: #d11515;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.emailbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+input::placeholder {
+    color: rgb(214, 211, 211);
+}
+
+.arrow {
+    filter: invert(1);
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    height: 10px;
+    width:100vw;
+    z-index: 10;
+    background-color: #383737;
+    margin-top: 39vh;
+
+
+}
+.graystrip{
+
+
+
+}
+
+/* .section2{
+    position: relative;
+    height: 20vh;
+    width: 100vw;
+
+    background-color: white;
+    /* z-index: 20; */
+} */
