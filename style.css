@@ -1,3 +1,8 @@
+
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -22,7 +27,9 @@
     position: absolute;
     display: flex;
     justify-content: center;
+    object-fit: cover;
     align-items: center;
+
 }
 
 nav {
@@ -94,11 +101,13 @@ select {
 }
 
 h1 {
+    text-align: center;
     position: relative;
     color: white;
     font-weight: 900;
     padding: 20px 0px;
     font-size: 48px;
+    font-family: 'Netflix Font', sans-serif;
 }
 
 .head2 {
@@ -106,6 +115,7 @@ h1 {
     font-size: larger;
     padding: 20px 0px;
     font-size: 24px;
+    font-family: 'Netflix Font', sans-serif;
 }
 
 .head3 {
@@ -114,6 +124,7 @@ h1 {
     font-size: 20px;
     padding: 20px 0px;
     padding-bottom: 40px;
+    font-family: 'Netflix Font', sans-serif;
 
 }
 
@@ -124,6 +135,7 @@ h1 {
     background-color: transparent;
     padding-left: 5px;
     border: 1px solid gray;
+    font-family: 'Netflix Font', sans-serif;
 }
 
 .btnred {
@@ -135,12 +147,14 @@ h1 {
     border: none;
     font-size: 24px;
     font-weight: 500;
+    font-family: 'Netflix Font', sans-serif;
 
 }
 
 .emailbtn {
     display: flex;
     justify-content: space-between;
+    font-family: 'Netflix Font', sans-serif;
 }
 
 input::placeholder {
@@ -160,20 +174,96 @@ input::placeholder {
     z-index: 10;
     background-color: #383737;
     margin-top: 39vh;
-
-
-}
-.graystrip{
-
-
-
 }
 
-/* .section2{
-    position: relative;
-    height: 20vh;
-    width: 100vw;
+@media (max-width:600px) {
 
-    background-color: white;
-    /* z-index: 20; */
-} */
+    .main {
+        position: relative;
+        height: 30vh;
+        width: 84vw;
+        left: -109px;
+        z-index: 10;
+        margin: 100px 140px;
+        top: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid white; */
+        flex-direction: column;
+    
+     }
+
+     .logo {
+        height: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        position: relative;
+        color: white;
+        font-weight: 700;
+        padding: 0px 0px;
+        font-size: 32px;
+        font-family: 'Netflix Font', sans-serif;
+    }
+
+    .head2 {
+        color: white;
+        font-size: larger;
+        padding: 16px 0px;
+        font-size: 20px;
+        font-family: 'Netflix Font', sans-serif;
+        line-height: 20px;
+    }
+
+    .head3 {
+        color: white;
+        text-align: center;
+        /* font-size: larger; */
+        /* font-size: 20px; */
+        padding: 14px 0px;
+        margin: 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-bottom: 40px;
+        margin-left: 8px;
+        padding: 15px;
+        font-family: 'Netflix Font', sans-serif;
+    
+
+    }
+
+    .emailbtn {
+        display: flex;
+        gap: 17px;
+        justify-content: space-between;
+        font-family: 'Netflix Font', sans-serif;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btnred {
+        height: 45px;
+        width: 163px;
+        background-color: #d11515;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Netflix Font', sans-serif;}
+
+        .container{
+            position: absolute;
+            display: flex;
+            align-items: flex-end;
+            height: 10px;
+            width:100vw;
+            z-index: 10;
+            background-color: #383737;
+            margin-top: 11vh;
+        }
+
+}
