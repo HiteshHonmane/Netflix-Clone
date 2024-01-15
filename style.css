@@ -10,7 +10,6 @@
 .blackbg{
     position:absolute;
     left: 0px;
-    z-index: ;
     background-color: black;
     min-height: 200vh;
     width: 100vw;
@@ -25,6 +24,7 @@
     padding: 0;
     margin: 0;
     position: absolute;
+    top: 0px;
     z-index: 1;
 }
 
@@ -32,6 +32,7 @@
     height: 74vh;
     width: 100vw;
     position: absolute;
+    top: 0px;
     display: flex;
     justify-content: center;
     object-fit: cover;
@@ -45,7 +46,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    position: absolute;
+    position: relative;
     z-index: 2;
     width: 100vw;
     height: 4 0px;
