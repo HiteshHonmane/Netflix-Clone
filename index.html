@@ -10,54 +10,113 @@
 <script src="script.js"></script>
 
 <body>
-    <div class="blackbg"> </div>
-    <nav>
-        <div>
-            <img class="logo" src="/assets/netflix-2048x634.png" alt="">
-        </div>
+    <div id="page1">
+        <!-- <div class="blackbg"></div> -->
+        <nav>
+            <div>
+                <img class="logo" src="/assets/netflix-2048x634.png" alt="">
+            </div>
 
-        <div class="loginbtn">
-            <button class="lang btn">
-                <select name="english" id="eng">
-                    <option class="enlang" value="eng">English</option>
-                    <option class="hnlang" value="hn">हिंदी</option>
-                </select>
-            </button>
-            
-            <button class="signin btn">Sign In</button>
-        </div>
-    </nav>
+            <div class="loginbtn">
+                <button class="lang btn">
+                    <select name="english" id="eng">
+                        <option class="enlang" value="eng">English</option>
+                        <option class="hnlang" value="hn">हिंदी</option>
+                    </select>
+                </button>
 
-    <div class="blacklayer"></div>
-    <img class="backgroundimg"
-        src="https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg"
-        alt="">
+                <button class="signin btn">Sign In</button>
+            </div>
+        </nav>
 
-    <div class="main">
-        <h1 class="head"> Enjoy big movies, hit series and more from ₹149.</h1>
-        <div class="head2"> Join today Cancel anytime.</div>
-        <div class="head3 ">Ready to watch? Enter your email to create or restart your membership
+        <div class="blacklayer"></div>
+        <img class="backgroundimg"
+            src="https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+            alt="">
+
+        <div class="main">
+            <h1 class="head"> Enjoy big movies, hit series and more from ₹149.</h1>
+            <div class="head2"> Join today Cancel anytime.</div>
+            <div class="head3 ">Ready to watch? Enter your email to create or restart your membership
+            </div>
+            <section class="emailbtn">
+                <input class="email" type="text" placeholder=" Email Address ">
+                <button class="btnred">Get Started <img class="arrow" src="assets/next.png" filter="invert"
+                        height="15px" alt="">
+                </button>
+            </section>
+
         </div>
-        <section class="emailbtn">
-            <input class="email" type="text" placeholder=" Email Address ">
-            <button class="btnred">Get Started <img class="arrow" src="assets/next.png" filter="invert" height="15px"
-                    alt="">
-            </button>
-        </section>
-       
     </div>
+
     <div class="page_2">
-        <h1 class="p2h1"> Enjoy on your TV </h1>
-        <p class="p2text">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-
-        <div class="imgandvideo">
-            <img class="tvimg" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="tvpng">
-            <video class="p2video" autoplay="on" loop="on" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"></video>
+        <div class="page2cont">
+            <div class="p2cont">
+                <h1 class="p2h1"> Enjoy on your TV </h1>
+                <p class="p2text">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                </p>
+            </div>
+            <div class="imgandvideo">
+                <img class="tvimg2" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                    alt="tvpng">
+                <video class="p2video" autoplay="on" loop="on"
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"></video>
+            </div>
         </div>
-        
-        
+
+
     </div>
-    
+
+    <div class="page_3">
+        <div class="page3cont">
+            <div class="imgandgif">
+                <img class="mobimg" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                    alt="tvpng">
+                <!-- <video class="p2video" autoplay="on" loop="on"
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"></video> -->
+            </div>
+            <div class="p3cont">
+                <h1 class="p3h1"> Download your shows to watch offline </h1>
+                <p class="p3text">Save your favourites easily and always have something to watch.
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="page_4">
+        <div class="page4cont">
+            <div class="p4cont">
+                <h1 class="p4h1"> Watch everywhere</h1>
+                <p class="p4text">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                </p>
+            </div>
+            <div class="imgandvideop4">
+                <img class="tvimg4" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+                    alt="tvpng">
+                    <video class="p4video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4"></video>
+            </div>
+        </div>
+    </div>
+
+    <div class="page_5">
+        <div class="page5cont">
+            <div class="imgcontp5">
+                <img class="cartoonimg" src="https://occ-0-2085-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+                    alt="cartoonimg">
+                
+            </div>
+            <div class="p5cont">
+                <h1 class="p5h1"> Create profiles for kids </h1>
+                <p class="p5text">Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+                </p>
+            </div>
+        </div>
+
+
+
+
 </body>
 
 </html>
