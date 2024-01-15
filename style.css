@@ -181,6 +181,7 @@ select {
 .emailbtn {
     display: flex;
     justify-content: space-between;
+
     font-family: 'Netflix Font', sans-serif;
 }
 
@@ -786,4 +787,78 @@ input::placeholder {
             flex-direction: column;}
 
     
+}
+
+
+.faqul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+ 
+    /* background-color: gray; */
+   gap: 9px;
+    list-style: none;
+    width: 60vw;
+
+}
+
+
+
+.faqpage{
+    height: 90vh;
+    width: 98vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 80px;
+    align-items: center;
+    border-bottom: var(--buttomborder);
+
+    
+
+}
+
+.faqh1{
+    width: 100vw;
+    font-size: 48px;
+    text-align: center;
+    font-family: var(--ffont);
+}
+
+.fq{
+    padding: 1.5rem;
+    display: flex;
+    /* height: 84px; */
+    gap: 9px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#2D2D2D;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--ffont);
+    
+}
+
+.plusicon{
+    filter: invert(1);
+}
+
+/* Footer page css */
+
+footer{
+    height: 42.33vh;
+    color: rgb(0,79,133);
+}
+.fmaincontainer{
+    display: flex;
+    gap: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.cellno{
+    display: flex;
+    text-align: center;
 }
