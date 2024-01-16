@@ -794,6 +794,7 @@ input::placeholder {
     position: relative;
     display: flex;
     flex-direction: column;
+    
  
     /* background-color: gray; */
    gap: 9px;
@@ -805,8 +806,8 @@ input::placeholder {
 
 
 .faqpage{
-    height: 90vh;
-    width: 98vw;
+    min-height: 90vh;
+    min-width: 98vw;
     color: white;
     display: flex;
     flex-direction: column;
@@ -814,8 +815,6 @@ input::placeholder {
     margin-top: 80px;
     align-items: center;
     border-bottom: var(--buttomborder);
-
-    
 
 }
 
@@ -844,16 +843,24 @@ input::placeholder {
     filter: invert(1);
 }
 
+
+
+
 /* Footer page css */
 
 footer{
-    height: 42.33vh;
-    color: rgb(0,79,133);
+    min-height: 42.33vh;
+    min-width: 98vw;
+    color: rgba(255,255,255,0.7);
 }
 .fmaincontainer{
+    margin-top: 11.85vh;
+    position: absolute;
+    flex-wrap: wrap;
+    left: 20vw;
     display: flex;
-    gap: 200px;
-    font-size: 20px;
+    gap: 8vw;
+    font-size: 17px;
     font-weight: 400;
     justify-content: center;
 }
@@ -861,4 +868,23 @@ footer{
 .cellno{
     display: flex;
     text-align: center;
+    margin: 0vw 20vw;
+    position: relative;
+    top: 9vh;
+    font-size: 17px;
+    font-weight: 400;
+    /* margin-top: 2vw; */
+}
+.footli{
+    
+    list-style: none;
+    display: flex;
+    gap: 0px;
+    text-decoration: dashed;
+}
+.footul{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-decoration: underline;
 }
