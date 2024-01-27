@@ -79,14 +79,28 @@ nav {
 
 
 .btn {
+    border: none;
+    outline: none;
     background-color: rgba(0, 0, 0, 0.58);
     height: 40px;
     color: white;
     border: 1px solid gray;
     border-radius: 5px;
-    padding: 0px 8px;
+    /* padding: 0px 8px; */
     margin: 10px;
 
+}
+
+
+.enlang,.hnlang {
+    color: black;
+}
+
+
+.english{
+    border: none;
+    outline: none;
+    padding: 10px;
 }
 
 .loginbtn {
@@ -105,8 +119,9 @@ nav {
 
 select {
     background-color: transparent;
-    border: 0px;
-    height: auto;
+    border: none;
+    width: 79px;
+    height: 36px;
     color: white;
 
 }
