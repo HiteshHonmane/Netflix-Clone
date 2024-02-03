@@ -120,6 +120,7 @@ nav {
 select {
     background-color: transparent;
     border: none;
+    padding: 6px;
     width: 79px;
     height: 36px;
     color: white;
@@ -902,4 +903,72 @@ footer{
     flex-direction: column;
     gap: 24px;
     text-decoration: underline;
+}
+
+@media (max-width:600px) {
+    footer{
+        min-height: 55.33vh;
+        min-width: 98vw;
+        color: rgba(255,255,255,0.7);
+        display: flex;
+    }
+    .fmaincontainer {
+        margin-top: 11.85vh;
+        position: absolute;
+        flex-wrap: wrap;
+        left: 7vw;
+        display: flex;
+        gap: 8vw;
+        font-size: 17px;
+        font-weight: 400;
+        justify-content: center;
+    }
+    .fcont1{
+        height: 151px;
+        width: 164px;
+    }
+    .fcont2{
+        height: 151px;
+        width: 164px;
+    }
+    .fcont3{
+        height: 151px;
+        width: 164px;
+    }
+    .fcont4{
+        height: 151px;
+        width: 164px;
+    }
+    .cellno {
+        display: flex;
+        width: 99vw;
+        margin: 0px 38px;
+        top: 9vh;
+        font-size: 17px;
+        font-weight: 400;
+        
+    }
+    .faqul {
+        display: flex;
+        flex-direction: column;
+        /* background-color: gray; */
+        gap: 10px;
+        list-style: none;
+        width: 76vw;
+     }
+
+.btnred {
+    height: 45px;
+    width: 163px;
+    background-color: #d11515;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Netflix Font', sans-serif;
+    margin-bottom: 15px;
+
+    
+    
 }
