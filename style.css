@@ -92,12 +92,13 @@ nav {
 }
 
 
-.enlang,.hnlang {
+.enlang,
+.hnlang {
     color: black;
 }
 
 
-.english{
+.english {
     border: none;
     outline: none;
     padding: 10px;
@@ -344,6 +345,7 @@ input::placeholder {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     border-bottom: var(--buttomborder);
 
 
@@ -385,7 +387,7 @@ input::placeholder {
 
 .p2video {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 40px;
     height: 31.69vh;
     /* width: 24.28; */
@@ -445,6 +447,7 @@ input::placeholder {
         position: relative;
         height: 30.56vh;
     }
+
     .p2video {
         position: absolute;
         top: 50px;
@@ -452,7 +455,7 @@ input::placeholder {
         height: 17.69vh;
         /* width: 24.28; */
     }
-        
+
 
 
 }
@@ -525,12 +528,12 @@ input::placeholder {
 
 @media (max-width:600px) {
 
-   
+
 
     .p3h1 {
         color: white;
         font-size: 2rem;
-    font-weight: 700;
+        font-weight: 700;
         font-family: var(--ffont);
         width: 88vw;
         display: flex;
@@ -552,19 +555,19 @@ input::placeholder {
         display: flex;
         flex-wrap: wrap;
         border-bottom: var(--buttomborder);
-    
-    
+
+
     }
 
-    
+
     .p3cont {
-       margin-top: 40px;
-            display: flex;
-            gap: 12px;
-            width: 88vw;
-            /* flex-wrap: wrap; */
-            align-content: center;
-            flex-direction: column;
+        margin-top: 40px;
+        display: flex;
+        gap: 12px;
+        width: 88vw;
+        /* flex-wrap: wrap; */
+        align-content: center;
+        flex-direction: column;
     }
 
 
@@ -641,7 +644,7 @@ input::placeholder {
 
 @media (max-width:600px) {
 
-    .p4cont{
+    .p4cont {
         margin-top: 40px;
         display: flex;
         gap: 12px;
@@ -656,12 +659,13 @@ input::placeholder {
         margin-left: 16px;
         color: white;
         font-size: 2rem;
-    font-weight: 700;
+        font-weight: 700;
         font-family: var(--ffont);
         width: 88vw;
         display: flex;
         text-align: center;
     }
+
     .p4text {
         color: white;
         text-align: center;
@@ -669,22 +673,24 @@ input::placeholder {
         width: 81vw;
         font-weight: 400;
     }
-    .tvimg4{
+
+    .tvimg4 {
         z-index: 1;
         position: relative;
         height: 33.56vh;
     }
-    .p4video{
+
+    .p4video {
         position: absolute;
         top: 24px;
         left: 72px;
         height: 15.69vh;
     }
-    
 
 
-    
-    
+
+
+
 }
 
 
@@ -741,7 +747,7 @@ input::placeholder {
     left: 40px;
     height: 31.69vh;
     /* width: 24.28; */
-  .cartoonimg {
+.cartoonimg {
     z-index: 1;
     position: relative;
     height: 46.56vh;
@@ -760,13 +766,13 @@ input::placeholder {
 @media (max-width:600px) {
 
 
-    .cartoonimg{
+    .cartoonimg {
         z-index: 1;
         position: relative;
         height: 30.33vh;
     }
 
-    .p5h1{
+    .p5h1 {
         color: white;
         font-size: 2rem;
         font-weight: 700;
@@ -775,6 +781,7 @@ input::placeholder {
         display: flex;
         text-align: center;
     }
+
     .p5text {
         color: white;
         text-align: center;
@@ -791,29 +798,31 @@ input::placeholder {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    }
 
-        .p5cont {
-            margin-top: 40px;
-            display: flex;
-            gap: 12px;
-            width: 88vw;
-            /* flex-wrap: wrap; */
-            align-content: center;
-            flex-direction: column;}
+    .p5cont {
+        margin-top: 40px;
+        display: flex;
+        gap: 12px;
+        width: 88vw;
+        /* flex-wrap: wrap; */
+        align-content: center;
+        flex-direction: column;
+    }
 
-    
+
 }
 
 
-.faqul{
+.faqul {
     position: relative;
     display: flex;
     flex-direction: column;
-    
- 
+
+
     /* background-color: gray; */
-   gap: 9px;
+    gap: 9px;
     list-style: none;
     width: 60vw;
 
@@ -821,7 +830,7 @@ input::placeholder {
 
 
 
-.faqpage{
+.faqpage {
     min-height: 90vh;
     min-width: 98vw;
     color: white;
@@ -834,28 +843,28 @@ input::placeholder {
 
 }
 
-.faqh1{
+.faqh1 {
     width: 100vw;
     font-size: 48px;
     text-align: center;
     font-family: var(--ffont);
 }
 
-.fq{
+.fq {
     padding: 1.5rem;
     display: flex;
     /* height: 84px; */
     gap: 9px;
     justify-content: space-between;
     align-items: center;
-    background-color:#2D2D2D;
+    background-color: #2D2D2D;
     font-size: 24px;
     font-weight: 400;
     font-family: var(--ffont);
-    
+
 }
 
-.plusicon{
+.plusicon {
     filter: invert(1);
 }
 
@@ -864,12 +873,13 @@ input::placeholder {
 
 /* Footer page css */
 
-footer{
+footer {
     min-height: 42.33vh;
     min-width: 98vw;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
-.fmaincontainer{
+
+.fmaincontainer {
     margin-top: 11.85vh;
     position: absolute;
     flex-wrap: wrap;
@@ -881,7 +891,7 @@ footer{
     justify-content: center;
 }
 
-.cellno{
+.cellno {
     display: flex;
     text-align: center;
     margin: 0vw 20vw;
@@ -891,14 +901,16 @@ footer{
     font-weight: 400;
     /* margin-top: 2vw; */
 }
-.footli{
-    
+
+.footli {
+
     list-style: none;
     display: flex;
     gap: 0px;
     text-decoration: dashed;
 }
-.footul{
+
+.footul {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -906,12 +918,13 @@ footer{
 }
 
 @media (max-width:600px) {
-    footer{
+    footer {
         min-height: 55.33vh;
         min-width: 98vw;
-        color: rgba(255,255,255,0.7);
+        color: rgba(255, 255, 255, 0.7);
         display: flex;
     }
+
     .fmaincontainer {
         margin-top: 11.85vh;
         position: absolute;
@@ -923,22 +936,27 @@ footer{
         font-weight: 400;
         justify-content: center;
     }
-    .fcont1{
+
+    .fcont1 {
         height: 151px;
         width: 164px;
     }
-    .fcont2{
+
+    .fcont2 {
         height: 151px;
         width: 164px;
     }
-    .fcont3{
+
+    .fcont3 {
         height: 151px;
         width: 164px;
     }
-    .fcont4{
+
+    .fcont4 {
         height: 151px;
         width: 164px;
     }
+
     .cellno {
         display: flex;
         width: 99vw;
@@ -946,8 +964,9 @@ footer{
         top: 9vh;
         font-size: 17px;
         font-weight: 400;
-        
+
     }
+
     .faqul {
         display: flex;
         flex-direction: column;
@@ -955,20 +974,19 @@ footer{
         gap: 10px;
         list-style: none;
         width: 76vw;
-     }
+    }
 
-.btnred {
-    height: 45px;
-    width: 163px;
-    background-color: #d11515;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Netflix Font', sans-serif;
-    margin-bottom: 15px;
+    .btnred {
+        height: 45px;
+        width: 163px;
+        background-color: #d11515;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Netflix Font', sans-serif;
+        margin-bottom: 15px;
+    }
 
-    
-    
 }
